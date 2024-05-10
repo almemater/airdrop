@@ -7,12 +7,11 @@ const Option1: FunctionComponent = () => {
       <div className="option-3-inner">
         <div className="frame-parent3">
           <div className="champions-of-custome-parent4">
-            <h1 className="champions-of-custome11">Welcome to Almemater</h1>
+            <h1 className="champions-of-custome11">Welcome to Alme Mater</h1>
             <div className="champions-of-custome-container2">
               <p className="lorem-ipsum-dolor">
               Frens of Alme Mater will be airdropped 10% of $ALME's circulating supply on launch based on accumulated Alme Points.
               </p>
-              <p className="morbi-fringilla-morbi">morbi fringilla morbi.</p>
             </div>
           </div>
           <div className="button3">

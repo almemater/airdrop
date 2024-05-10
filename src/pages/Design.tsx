@@ -11,36 +11,7 @@ const Design: FunctionComponent = () => {
     <div className="design-2">
       <img className="design-2-child" alt="" src="/rectangle-188@2x.png" />
       <header className="champions-of-custome-parent">
-        <h1 className="champions-of-custome">ALMEMATER</h1>
-        <div className="vuesaxboldsetting-2-parent">
-          <img
-            className="vuesaxboldsetting-2-icon"
-            loading="lazy"
-            alt=""
-            src="/vuesaxboldsetting2.svg"
-          />
-          <img
-            className="vuesaxboldnotification-icon"
-            loading="lazy"
-            alt=""
-            src="/vuesaxboldnotification.svg"
-          />
-          <div className="ellipse-parent">
-            <img
-              className="frame-child"
-              loading="lazy"
-              alt=""
-              src="/ellipse-3@2x.png"
-            />
-            <b className="champions-of-custome1">Jenny Wilson</b>
-            <img
-              className="vuesaxlineararrow-down-icon"
-              loading="lazy"
-              alt=""
-              src="/vuesaxlineararrowdown.svg"
-            />
-          </div>
-        </div>
+        <h1 className="champions-of-custome">ALME MATER</h1>
       </header>
       <main className="button-container">
         <section className="option-3-parent">
@@ -52,9 +23,7 @@ const Design: FunctionComponent = () => {
             <div className="button-r">
               <div className="champions-of-custome-group">
                 <h1 className="champions-of-custome2">Activities</h1>
-                <div className="champions-of-custome3">
-                  Lorem ipsum dolor sit amet consectetur facilisi.
-                </div>
+
               </div>
               <div className="frame-parent">
                 <div className="button-s-wrapper">
@@ -70,7 +39,7 @@ const Design: FunctionComponent = () => {
                         />
                       </div>
                       <div className="champions-of-custome-container">
-                      <Popup trigger={<span className="champions-of-custome6"> Discord </span>} position={'top center'}>Join and get verified on Discord. Join here </Popup>
+                        <Popup trigger={<span className="champions-of-custome6"> Discord </span>} position={'top center'}>Join and get verified on Discord. Join here </Popup>
                         <div className="frame-wrapper">
                           <div className="vector-parent">
                             <img
@@ -129,10 +98,10 @@ const Design: FunctionComponent = () => {
 
                       <Popup trigger={<span className="champions-of-custome6"> GM Per Day </span>} position={'top center'}>Type /gm and paste your wallet address</Popup>
                       <div className="black-tooltip-parent">
-                        
+
                         <div className="frame-wrapper2">
                           <div className="vector-container">
-                            
+
                             <div className="vector-parent1">
                               <img
                                 className="vector-icon3"
@@ -182,12 +151,12 @@ const Design: FunctionComponent = () => {
                     </div>
                     <div className="champions-of-custome-parent1">
 
-                      <Popup trigger={<span className="champions-of-custome6"> Refer & Earn </span>} position={'top center'}> Invite friends: Both you and the person you refer receive 1500 bonus Ultimate Points. These are credited soon as the person you refer joins our Discord.</Popup>
+                      <Popup trigger={<span className="champions-of-custome6"> Refer & Earn </span>} position={'top center'}> Invite friends: Both you and the person you refer receive 1500 bonus Alme Points. These are credited soon as the person you refer joins our Discord.</Popup>
                       <div className="black-tooltip-parent">
-                        
+
                         <div className="frame-wrapper2">
                           <div className="vector-container">
-                            
+
                             <div className="vector-parent1">
                               <img
                                 className="vector-icon3"
@@ -232,17 +201,17 @@ const Design: FunctionComponent = () => {
                         className="icon"
                         loading="lazy"
                         alt=""
-                        src="/13677885-5143065-1@2x.png"
+                        src="/blue-email-with-bell-notification-icon-3d-background-illustration-1@2x.png"
                       />
                     </div>
                     <div className="champions-of-custome-parent1">
 
-                      <Popup trigger={<span className="champions-of-custome6"> Subscribe Newsletter </span>} position={'top center'}> Keep yourself updated with Alme Mater Newsletter</Popup>
+                      <Popup trigger={<span className="champions-of-custome6"> Subscribe <br /> Newsletter </span>} position={'top center'}> Keep yourself updated with Alme Mater Newsletter</Popup>
                       <div className="black-tooltip-parent">
-                        
+
                         <div className="frame-wrapper2">
                           <div className="vector-container">
-                            
+
                             <div className="vector-parent1">
                               <img
                                 className="vector-icon3"
@@ -279,38 +248,69 @@ const Design: FunctionComponent = () => {
                     </div>
                   </div>
                 </div>
-                
+
               </div>
             </div>
-            <div className="photo-2024-04-25-17-47-04-1-parent">
-              <img
-                className="photo-2024-04-25-17-47-04-1-icon"
-                loading="lazy"
-                alt=""
-                src="/photo20240425174704-1@2x.png"
-              />
-              <div>
+            <div className="option-3">
+              <div className="photo-2024-04-25-17-47-04-1-parent">
+                <img
+                  className="photo-2024-04-25-17-47-04-1-icon"
+                  loading="lazy"
+                  alt=""
+                  src="/photo20240425174704-1@2x.png"
+                />
                 <div>
-                  <h1 className="mint-genesis-nft">Mint Genesis NFT</h1>
-                  <div className="champions-of-custome-wrapper">
-                    <div className="champions-of-custome8">
-                    <p>
-                    Unlock your journey into the future of learning by minting your Genesis NFT today! (Instead of Create ID - Mint ID</p>
+                  <div>
+                    <h1 className="mint-genesis-nft">Mint Genesis NFT</h1>
+                    <div className="champions-of-custome-wrapper">
+                      <div className="champions-of-custome8">
+                        <p>
+                          Unlock your journey into the future of learning by minting your Genesis NFT today!</p>
+                        <div className="x31-16-group">
+                          <img
+                            className="x31-16-icon1"
+                            loading="lazy"
+                            alt=""
+                            src="/-x31-16.svg"
+                          />
+                          <b className="champions-of-custome7">300</b>
+                        </div>
+                      </div>
                     </div>
+                    <button className="button2">
+                      <div className="index2">Mint ID</div>
+                    </button>
                   </div>
-                  <button className="button2">
-                    <div className="index2">Mint ID</div>
-                  </button>
                 </div>
               </div>
-              <div>
+              <div className="photo-2024-04-25-17-47-04-1-parent">
+                <img
+                  className="photo-2024-04-25-17-47-04-1-icon"
+                  loading="lazy"
+                  alt=""
+                  src="/photo20240425174704-1@2x.png"
+                />
                 <div>
-                  <h1 className="mint-genesis-nft">Hodl NFT - 20/day</h1>
-                  <div className="champions-of-custome-wrapper">
-                    <div className="champions-of-custome8">
-                    <p>
-                    "Earn exclusive rewards and accumulate points just by holding your NFT — your gateway to continuous benefits and opportunities!"</p>
+                  <div>
+                    <h1 className="mint-genesis-nft">Hodl NFT</h1>
+                    <div className="champions-of-custome-wrapper">
+                      <div className="champions-of-custome8">
+                        <p>
+                          Earn exclusive rewards and accumulate points just by holding your NFT — your gateway to continuous benefits and opportunities!</p>
+                        <div className="x31-16-group">
+                          <img
+                            className="x31-16-icon1"
+                            loading="lazy"
+                            alt=""
+                            src="/-x31-16.svg"
+                          />
+                          <b className="champions-of-custome7">20 per day</b>
+                        </div>
+                      </div>
                     </div>
+                    <button className="button2">
+                      <div className="index2">Hodl</div>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -321,11 +321,7 @@ const Design: FunctionComponent = () => {
           <div className="champions-of-custome-parent2">
             <div className="champions-of-custome-container1">
               <b>© 2024</b>
-              <span> Almemate. All Rights Reserved</span>
-            </div>
-            <div className="champions-of-custome-parent3">
-              <div className="champions-of-custome9">LinkedIn</div>
-              <div className="champions-of-custome10">Instagram</div>
+              <span> Alme Mater. All Rights Reserved</span>
             </div>
           </div>
         </footer>
