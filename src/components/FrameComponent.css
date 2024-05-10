@@ -1,0 +1,205 @@
+.frame-child1 {
+  height: 62px;
+  width: 62px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--border);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  display: none;
+}
+.icon1 {
+  height: 32px;
+  width: 30.7px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.group-button {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-400);
+  padding: var(--padding-sm) var(--padding-mini-3) var(--padding-sm)
+    var(--padding-mini);
+  background-color: var(--border);
+  width: 62px;
+  flex: 1;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.champions-of-custome17 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 25px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 106px;
+}
+.vector-icon5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.vector-icon6,
+.vector-icon7 {
+  width: 0;
+  height: 2px;
+  position: relative;
+}
+.vector-icon7 {
+  width: 2px;
+  height: 3.6px;
+}
+.vector-parent2 {
+  position: absolute;
+  top: 5.4px;
+  left: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.group-div {
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+.champions-of-custome-parent6,
+.frame-parent6,
+.frame-wrapper6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper6 {
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.champions-of-custome-parent6,
+.frame-parent6 {
+  flex-direction: row;
+  gap: var(--gap-7xs);
+}
+.frame-parent6 {
+  height: 109px;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.x31-16-icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.champions-of-custome18 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 12px;
+}
+.x31-16-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frame-wrapper7 {
+  width: 64px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-500);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.index5 {
+  width: 65px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: -0.3px;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: var(--font-switzer-variable);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 65px;
+}
+.button5,
+.frame-parent7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button5 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-base);
+  background-color: transparent;
+  border-radius: var(--br-xs);
+  background: linear-gradient(180deg, #b867ff, #3600a4);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.frame-parent7 {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  font-family: var(--font-helvetica);
+}
+.frame-parent5,
+.frame-wrapper5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent5 {
+  width: 242px;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.frame-wrapper5 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background: linear-gradient(180deg, #151515, #0b0b0b);
+  border: 2px solid var(--border);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-5xl);
+  min-width: 244px;
+  max-width: 296px;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-dharma-gothic-e);
+}
+@media screen and (max-width: 800px) {
+  .champions-of-custome17 {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .champions-of-custome17 {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .frame-parent7 {
+    flex-wrap: wrap;
+  }
+}
